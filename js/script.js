@@ -4,10 +4,11 @@ function init(){
    
    
    var clicky = document.getElementById("entrybutton");
-   var texts = document.getElementById("entryinput");
+
    
    
    clicky.addEventListener("click", function () {
+	 var texts = document.getElementById("entryinput");
      alert("Joe Forajter: " + texts.value);
 	 document.getElementById("textoutput").innerHTML = texts.value
    });
